@@ -204,8 +204,7 @@ def tca_plus(source, target, verbose=True, n_rep=12):
 def tca_jur():
     all = get_all_datasets()
     for name, paths in all.iteritems():
-        if name == "1":
-            tca_plus(paths, paths, verbose=True, n_rep=10)
+            tca_plus(paths, paths, verbose=False, n_rep=10)
 
 
 

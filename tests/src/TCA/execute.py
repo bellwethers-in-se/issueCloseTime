@@ -18,7 +18,7 @@ import numpy as np
 from scipy.spatial.distance import pdist, squareform
 import pandas
 from tabulate import tabulate
-from datasets.handler2 import get_all_datasets
+from datasets.handler import get_all_datasets
 
 
 def get_kernel_matrix(dframe, n_dim=15):

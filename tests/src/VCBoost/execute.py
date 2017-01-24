@@ -16,7 +16,7 @@ from tabulate import tabulate
 from random import random as rand, choice
 from sklearn.svm import LinearSVC
 from sklearn.metrics import roc_auc_score
-from datasets.handler2 import get_all_datasets
+from datasets.handler import get_all_datasets
 
 
 def target_details(test_set):

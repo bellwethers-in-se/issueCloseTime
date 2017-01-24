@@ -14,7 +14,7 @@ from pdb import set_trace
 import numpy as np
 import pandas
 from tabulate import tabulate
-from datasets.handler2 import get_all_datasets
+from datasets.handler import get_all_datasets
 
 
 def target_details(test_set):

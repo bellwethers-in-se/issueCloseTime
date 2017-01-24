@@ -2,21 +2,191 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c37c38-7826-4cde-98ed-8cb4adc0976f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/camel/camel.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/cloudstack/cloudstack.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/cocoon/cocoon.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/deeplearning/deeplearning.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/hadoop/hadoop.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/hive/hive.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/kafka/kafka.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/node/node.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/ofbiz/ofbiz.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datasets/qpid/qpid.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/all_learners.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/drjava.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/exoportal.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/fitlibraryforfitnesse.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/xalan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/bell/xerces.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/drjava.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/exoportal.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/fitlibraryforfitnesse.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/xalan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tca/xerces.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/drjava.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/exoportal.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/fitlibraryforfitnesse.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/xalan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/tnb/xerces.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/dataclass/~$all_learners.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/all_learners.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/emma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/jasml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/jhotdraw.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/nekohtml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/sunflow.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/bell/xmojo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/emma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/jasml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/jhotdraw.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/nekohtml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/sunflow.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tca/xmojo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/emma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/jasml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/jhotdraw.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/nekohtml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/sunflow.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/tnb/xmojo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/featureenvy/~$all_learners.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/all_learners.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/bell.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/drjava.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/fitjava.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/freecol.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/jpf.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/xalan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/bell/xerces.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/drjava.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/fitjava.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/freecol.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/jpf.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/xalan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tca/xerces.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/drjava.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/fitjava.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/freecol.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/jpf.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/xalan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/tnb/xerces.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclass/~$bell.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/godclassall_learners.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/all_learners.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/emma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/jasml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/jhotdraw.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/nekohtml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/sunflow.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/bell/xmojo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/emma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/jasml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/jhotdraw.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/nekohtml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/sunflow.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tca/xmojo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/aoi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/emma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/galleon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/hsqldb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/itext.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/jasml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/jhotdraw.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/mvnforum.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/nekohtml.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/sunflow.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/wct.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/tnb/xmojo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/longmethod/~$all_learners.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/results.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/~$godclass.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/results/~$longmethod.xlsx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NAIVE/execute.py" afterPath="$PROJECT_DIR$/src/NAIVE/execute.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TCA/execute.py" afterPath="$PROJECT_DIR$/src/TCA/execute.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datasets/handler.py" afterPath="$PROJECT_DIR$/src/datasets/handler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datasets/process.py" afterPath="$PROJECT_DIR$/src/datasets/process.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TNB/execute.py" afterPath="$PROJECT_DIR$/src/TNB/execute.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VCBoost/execute.py" afterPath="$PROJECT_DIR$/src/VCBoost/execute.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/run_all.py" afterPath="$PROJECT_DIR$/src/run_all.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/src/NAIVE/execute.py" afterPath="$PROJECT_DIR$/tests/src/NAIVE/execute.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/src/TCA/execute.py" afterPath="$PROJECT_DIR$/tests/src/TCA/execute.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/src/TNB/execute.py" afterPath="$PROJECT_DIR$/tests/src/TNB/execute.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/src/VCBoost/execute.py" afterPath="$PROJECT_DIR$/tests/src/VCBoost/execute.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/src/run_all.py" afterPath="$PROJECT_DIR$/tests/src/run_all.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,10 +196,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/issueCloseTime$execute.coverage" NAME="execute Coverage Results" MODIFIED="1485227165070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/TCA" />
+    <SUITE FILE_PATH="coverage/issueCloseTime$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1485282413785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/issueCloseTime$handler.coverage" NAME="handler Coverage Results" MODIFIED="1485227047737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/datasets" />
-    <SUITE FILE_PATH="coverage/issueCloseTime$execute__1_.coverage" NAME="execute (1) Coverage Results" MODIFIED="1485228078473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/NAIVE" />
+    <SUITE FILE_PATH="coverage/issueCloseTime$execute__3_.coverage" NAME="execute (3) Coverage Results" MODIFIED="1485282404807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/TNB" />
     <SUITE FILE_PATH="coverage/issueCloseTime$process.coverage" NAME="process Coverage Results" MODIFIED="1485226149115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/datasets" />
+    <SUITE FILE_PATH="coverage/issueCloseTime$execute__1_.coverage" NAME="execute (1) Coverage Results" MODIFIED="1485228078473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/NAIVE" />
+    <SUITE FILE_PATH="coverage/issueCloseTime$execute__2_.coverage" NAME="execute (2) Coverage Results" MODIFIED="1485280517802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/VCBoost" />
+    <SUITE FILE_PATH="coverage/issueCloseTime$execute.coverage" NAME="execute Coverage Results" MODIFIED="1485227165070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/TCA" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -37,11 +210,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="execute.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TCA/execute.py">
+      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="177" column="63" lean-forward="false" selection-start-line="177" selection-start-column="63" selection-end-line="177" selection-end-column="63" />
+            <state relative-caret-position="150">
+              <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -50,10 +223,10 @@
         </entry>
       </file>
       <file leaf-file-name="execute.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NAIVE/execute.py">
+        <entry file="file://$PROJECT_DIR$/src/VCBoost/execute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="422">
+              <caret line="260" column="0" lean-forward="true" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -64,7 +237,7 @@
       <file leaf-file-name="abcd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/metrics/abcd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
+            <state relative-caret-position="170">
               <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding />
             </state>
@@ -72,6 +245,14 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>handler2</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>handler</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,8 +266,11 @@
         <option value="$PROJECT_DIR$/src/datasets/camel/30.csv" />
         <option value="$PROJECT_DIR$/src/datasets/process.py" />
         <option value="$PROJECT_DIR$/src/datasets/handler.py" />
-        <option value="$PROJECT_DIR$/src/TCA/execute.py" />
+        <option value="$PROJECT_DIR$/src/run_all.py" />
         <option value="$PROJECT_DIR$/src/NAIVE/execute.py" />
+        <option value="$PROJECT_DIR$/src/TCA/execute.py" />
+        <option value="$PROJECT_DIR$/src/TNB/execute.py" />
+        <option value="$PROJECT_DIR$/src/VCBoost/execute.py" />
       </list>
     </option>
   </component>
@@ -97,9 +281,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="x" value="1920" />
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -119,6 +304,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,14 +346,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NAIVE" />
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="issueCloseTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="issueCloseTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VCBoost" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,47 +385,12 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.standard" value="" />
   </component>
-  <component name="RunManager" selected="Python.execute (1)">
-    <configuration default="false" name="process" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/datasets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="issueCloseTime" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/datasets/process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/datasets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="issueCloseTime" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/datasets/handler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.run_all">
     <configuration default="false" name="execute" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
+        <env name="PYTHONWARNINGS" value="ignore" />
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
@@ -241,6 +409,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
+        <env name="PYTHONWARNINGS" value="ignore" />
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
@@ -251,6 +420,63 @@
       <module name="issueCloseTime" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/NAIVE/execute.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="execute (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONWARNINGS" value="ignore" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/VCBoost" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="issueCloseTime" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/VCBoost/execute.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="execute (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONWARNINGS" value="ignore" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda2/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/TNB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="issueCloseTime" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/TNB/execute.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONWARNINGS" value="ignore" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda2/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="issueCloseTime" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/run_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -316,9 +542,10 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
+        <env name="PYTHONWARNINGS" value="ignore" />
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda2/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -469,18 +696,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.process" />
-      <item index="1" class="java.lang.String" itemvalue="Python.handler" />
-      <item index="2" class="java.lang.String" itemvalue="Python.execute" />
-      <item index="3" class="java.lang.String" itemvalue="Python.execute (1)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.execute" />
+      <item index="1" class="java.lang.String" itemvalue="Python.execute (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.execute (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.execute (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run_all" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.execute (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.execute" />
-        <item index="2" class="java.lang.String" itemvalue="Python.handler" />
-        <item index="3" class="java.lang.String" itemvalue="Python.process" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.run_all" />
+        <item index="1" class="java.lang.String" itemvalue="Python.execute (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.execute (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.execute (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.execute" />
       </list>
     </recent_temporary>
   </component>
@@ -495,28 +724,37 @@
       <option name="presentableId" value="Default" />
       <updated>1485199415062</updated>
     </task>
+    <task id="LOCAL-00001" summary="multiproc updates&#10;">
+      <created>1485276485549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485276485549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15368196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45903954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Runtime Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15185784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38331679" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Runtime Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -527,11 +765,43 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="multiproc updates&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiproc updates&#10;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/TCA/execute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="177" column="63" lean-forward="false" selection-start-line="177" selection-start-column="63" selection-end-line="177" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NAIVE/execute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/metrics/abcd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/datasets/process.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -552,78 +822,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/cocoon/(90,).csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/node/(1,).csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/cloudstack/cloudstack.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/camel/camel.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/camel/14.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/camel/30.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4185">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/camel/90.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/camel/7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/camel/1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasets/cocoon/(90,).csv" />
+    <entry file="file://$PROJECT_DIR$/src/datasets/node/(1,).csv" />
+    <entry file="file://$PROJECT_DIR$/src/datasets/cloudstack/cloudstack.csv" />
+    <entry file="file://$PROJECT_DIR$/src/datasets/camel/camel.csv" />
+    <entry file="file://$PROJECT_DIR$/src/datasets/camel/14.csv" />
+    <entry file="file://$PROJECT_DIR$/src/datasets/camel/30.csv" />
+    <entry file="file://$PROJECT_DIR$/src/datasets/camel/90.csv" />
+    <entry file="file://$PROJECT_DIR$/src/datasets/camel/7.csv" />
+    <entry file="file://$PROJECT_DIR$/src/datasets/camel/1.csv" />
     <entry file="file://$PROJECT_DIR$/src/datasets/handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -634,19 +841,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasets/1/camel.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasets/1/camel.csv" />
     <entry file="file://$PROJECT_DIR$/src/oracle/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/metrics/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
+        <state relative-caret-position="170">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding />
         </state>
@@ -670,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TCA/execute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="177" column="63" lean-forward="false" selection-start-line="177" selection-start-column="63" selection-end-line="177" selection-end-column="63" />
+        <state relative-caret-position="371">
+          <caret line="205" column="39" lean-forward="false" selection-start-line="205" selection-start-column="39" selection-end-line="205" selection-end-column="39" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
@@ -680,8 +879,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NAIVE/execute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TNB/execute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VCBoost/execute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="260" column="0" lean-forward="true" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>

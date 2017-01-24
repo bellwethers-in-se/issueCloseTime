@@ -10,6 +10,7 @@ if root not in sys.path:
 from TCA.execute import tca_plus
 from TNB.execute import tnb
 from NAIVE.execute import bellw
+from VCBoost.execute import vcb
 import multiprocessing
 from pdb import set_trace
 from datasets.handler import get_all_datasets
@@ -29,19 +30,22 @@ def deploy(elem):
 
 def run():
     all = get_all_datasets()
+
     dir_names = {
-        "bell": bellw
-        , "tca": tca_plus
-        , "tnb": tnb
+        "bell": bellw,
+        "tca": tca_plus,
+        "tnb": tnb,
+        "vcb": vcb
     }
+
     tasks = []
     for data, project in all.iteritems():
-            if data == "LongMethod":
-                for f_name, method in dir_names.iteritems():
-                    save_path = os.path.join(root, "results", data.lower(), f_name.lower())
-                    if os.path.exists(save_path) is False:
-                        os.makedirs(save_path)
-                    tasks.append(((data, project), (f_name, method)))
+        if data == "1 day":
+            for f_name, method in dir_names.iteritems():
+                save_path = os.path.join(root, "results", data.lower(), f_name.lower())
+                if os.path.exists(save_path) is False:
+                    os.makedirs(save_path)
+                tasks.append(((data, project), (f_name, method)))
 
     pool = multiprocessing.Pool(processes=4)
     pool.map(deploy, tasks)

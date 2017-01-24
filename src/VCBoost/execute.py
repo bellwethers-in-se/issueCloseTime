@@ -16,7 +16,7 @@ from tabulate import tabulate
 from random import random as rand, choice
 from sklearn.svm import LinearSVC
 from sklearn.metrics import roc_auc_score
-from datasets.handler2 import get_all_datasets
+from datasets.handler import get_all_datasets
 
 
 def target_details(test_set):
@@ -201,8 +201,7 @@ def predict_defects(test, weights, classifiers):
             y_pred.append([wgt * p for p in pred])
 
         distribution = np.sum(np.array(y_pred).T, axis=1)
-        set_trace()
-        actuals = [1 if p is "T" else 0 for p in y]
+        actuals = [1 if p == True else 0 for p in y]
         predicted = [1 if p > 0 else 0 for p in distribution]
 
     return actuals, predicted, distribution
@@ -258,8 +257,7 @@ def vcb(source, target, verbose=False, n_rep=12):
 def tnb_jur():
     all = get_all_datasets()
     for name, paths in all.iteritems():
-        vcb(paths, paths, verbose=False, n_rep=10)
-        print("\n\n")
+        vcb(paths, paths, verbose=True, n_rep=1)
 
 
 if __name__ == "__main__":

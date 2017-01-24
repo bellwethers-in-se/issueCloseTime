@@ -14,7 +14,7 @@ from pdb import set_trace
 import numpy as np
 import pandas
 from tabulate import tabulate
-from datasets.handler2 import get_all_datasets
+from datasets.handler import get_all_datasets
 
 
 def target_details(test_set):
@@ -117,9 +117,6 @@ def tnb_jur():
     all = get_all_datasets()
     for name, paths in all.iteritems():
         tnb(paths, paths, verbose=False, n_rep=10)
-        print("\n\n")
-        # set_trace()
-
 
 if __name__ == "__main__":
     tnb_jur()

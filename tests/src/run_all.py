@@ -12,7 +12,7 @@ from TNB.execute import tnb
 from NAIVE.execute import bellw
 import multiprocessing
 from pdb import set_trace
-from datasets.handler2 import get_all_datasets
+from datasets.handler import get_all_datasets
 
 
 def deploy(elem):
