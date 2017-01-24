@@ -13,7 +13,7 @@ from pdb import set_trace
 import numpy as np
 import pandas
 from tabulate import tabulate
-from datasets.handler2 import get_all_datasets
+from datasets.handler import get_all_datasets
 
 
 def weight_training(test_instance, training_instance):
@@ -99,9 +99,8 @@ def bellw(source, target, verbose=True, n_rep=12):
 def tnb_jur():
     all = get_all_datasets()
     for name, paths in all.iteritems():
-        if name == "LongMethod":
-            bellw(paths, paths, verbose=True, n_rep=10)
-        # set_trace()
+        bellw(paths, paths, verbose=True, n_rep=10)
+        set_trace()
 
 
 if __name__ == "__main__":

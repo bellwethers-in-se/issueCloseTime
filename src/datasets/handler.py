@@ -20,7 +20,6 @@ def get_all_datasets():
                 fname = f.split('/')[-1].split("-")[0]
                 datasets[datapath].update({fname: f})
 
-    set_trace()
     return datasets
 
 

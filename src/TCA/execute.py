@@ -18,7 +18,7 @@ import numpy as np
 from scipy.spatial.distance import pdist, squareform
 import pandas
 from tabulate import tabulate
-from datasets.handler2 import get_all_datasets
+from datasets.handler import get_all_datasets
 
 
 def get_kernel_matrix(dframe, n_dim=15):
@@ -204,9 +204,9 @@ def tca_plus(source, target, verbose=True, n_rep=12):
 def tca_jur():
     all = get_all_datasets()
     for name, paths in all.iteritems():
-        if name == "LongMethod":
+        if name == "1":
             tca_plus(paths, paths, verbose=True, n_rep=10)
-        # set_trace()
+
 
 
 if __name__ == "__main__":
