@@ -257,7 +257,7 @@ def vcb(source, target, verbose=False, n_rep=12):
 def tnb_jur():
     all = get_all_datasets()
     for name, paths in all.iteritems():
-        vcb(paths, paths, verbose=True, n_rep=1)
+        vcb(paths, paths, verbose=False, n_rep=1)
 
 
 if __name__ == "__main__":

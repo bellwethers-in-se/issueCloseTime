@@ -8,9 +8,9 @@ from tabulate import tabulate
 
 
 def list_communities():
-    for var in ["bell", "tca", "tnb"]:
+    for var in ["bell", "tca", "tnb", "vcb"]:
         print("Method: {}".format(var.upper()))
-        files = glob(os.path.abspath(os.path.join(".", "godclass", var, "*.csv")))
+        files = glob(os.path.abspath(os.path.join(".", "1 day", var, "*.csv")))
         yield files
 
 

@@ -147,7 +147,7 @@ def predict_defects(train, test):
     return actual, predicted, distr
 
 
-def tca_plus(source, target, verbose=True, n_rep=12):
+def tca_plus(source, target, verbose=False, n_rep=12):
     """
     TCA: Transfer Component Analysis
     :param source:
@@ -204,7 +204,8 @@ def tca_plus(source, target, verbose=True, n_rep=12):
 def tca_jur():
     all = get_all_datasets()
     for name, paths in all.iteritems():
-            tca_plus(paths, paths, verbose=False, n_rep=10)
+        if name == "1":
+            tca_plus(paths, paths, verbose=Fa, n_rep=10)
 
 
 

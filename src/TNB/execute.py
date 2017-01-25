@@ -98,7 +98,7 @@ def tnb(source, target, verbose=False, n_rep=12):
 
                 stats.append([src_name, int(np.mean(pd)), int(np.mean(pf)),
                               int(np.mean(pr)), int(np.mean(f1)),
-                              int(np.mean(g)), int(np.mean(auc))])  # ,
+                              int(np.mean(g)), int(np.mean(auc))])
 
         stats = pandas.DataFrame(sorted(stats, key=lambda lst: lst[-2], reverse=True),  # Sort by G Score
                                  columns=["Name", "Pd", "Pf", "Prec", "F1", "G", "AUC"])  # ,

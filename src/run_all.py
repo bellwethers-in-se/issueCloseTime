@@ -22,7 +22,7 @@ def deploy(elem):
     method = elem[1][1]
     project = elem[0][1]
     print("Deploying: Datset: {} | Save Path: {}".format(data.lower(), fname.lower()))
-    result = method(source=project, target=project, n_rep=12)
+    result = method(source=project, target=project, verbose=False, n_rep=12)
     for tgt_name, stats in result.iteritems():
         path = os.path.join(root, "results", data.lower(), fname.lower(), tgt_name + ".csv")
         stats.to_csv(path, index=False)
@@ -40,7 +40,7 @@ def run():
 
     tasks = []
     for data, project in all.iteritems():
-        if data == "1 day":
+        if data == "14 days":
             for f_name, method in dir_names.iteritems():
                 save_path = os.path.join(root, "results", data.lower(), f_name.lower())
                 if os.path.exists(save_path) is False:

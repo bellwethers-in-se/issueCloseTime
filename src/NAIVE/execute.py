@@ -47,7 +47,7 @@ def predict_defects(train, test):
     return actual, predicted, distr
 
 
-def bellw(source, target, verbose=True, n_rep=12):
+def bellw(source, target, verbose=False, n_rep=12):
     """
     TNB: Transfer Naive Bayes
     :param source:
@@ -59,7 +59,7 @@ def bellw(source, target, verbose=True, n_rep=12):
     for tgt_name, tgt_path in target.iteritems():
         stats = []
         charts = []
-        if verbose: print("{} \r".format(tgt_name[0].upper() + tgt_name[1:]))
+        if verbose: print("{}! \r".format(tgt_name[0].upper() + tgt_name[1:]))
         val = []
         for src_name, src_path in source.iteritems():
             if not src_name == tgt_name:
@@ -100,7 +100,6 @@ def tnb_jur():
     all = get_all_datasets()
     for name, paths in all.iteritems():
         bellw(paths, paths, verbose=False, n_rep=10)
-        set_trace()
 
 
 if __name__ == "__main__":
