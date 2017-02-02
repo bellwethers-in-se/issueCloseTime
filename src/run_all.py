@@ -40,7 +40,7 @@ def run():
 
     tasks = []
     for data, project in all.iteritems():
-        if data == "14 days":
+        if data == "30 days":
             for f_name, method in dir_names.iteritems():
                 save_path = os.path.join(root, "results", data.lower(), f_name.lower())
                 if os.path.exists(save_path) is False:
